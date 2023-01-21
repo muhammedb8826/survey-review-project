@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="title">Microverse Survey Form</h1>
+      <p id="description">Thank you for taking the time to fill this form!</p>
+
+      <form id="survey-form">
+        <div>
+          <label id="name-label">Full name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Write your name here"
+            required
+          />
+        </div>
+        <div>
+          <label id="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter Your Email"
+            required
+          />
+        </div>
+        <div>
+          <label id="number-label">Number</label>
+          <input
+            type="number"
+            id="number"
+            placeholder="Enter Your Number"
+            min="0"
+            max="1000"
+          />
+        </div>
+
+        <div>
+          <div>
+            <label id="name-label">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Write your name here"
+              required
+            />
+          </div>
+          <div>
+            <label id="email-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter Your Email"
+              required
+            />
+          </div>
+          <div>
+            <label id="number-label">Number</label>
+            <input
+              type="number"
+              id="number"
+              placeholder="Enter Your Number"
+              min="0"
+              max="1000"
+            />
+          </div>
+        </div>
+
+        <select id="dropdown">
+          <option>Option1</option>
+          <option>Option2</option>
+        </select>
+        <div>
+          <input value="radio" name="Radio" type="radio" />
+          <label>Option1</label>
+          <input value="radio" name="Radio" type="radio" />
+          <label>Option2</label>
+        </div>
+
+        <div>
+          <label>
+            <input name="checkboxes" type="checkbox" value="option1" /> Option 1
+          </label>
+          <label>
+            <input name="checkboxes" type="checkbox" value="option2" /> Option 2
+          </label>
+          <label>
+            <input name="checkboxes" type="checkbox" value="option3" /> Option 3
+          </label>
+        </div>
+
+        <div>
+          <p>Do you have suggestions?</p>
+          <textarea
+            id="textaera"
+            name="textaera"
+            placeholder="Write something here"
+          ></textarea>
+        </div>
+
+        <div>
+          <button id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
